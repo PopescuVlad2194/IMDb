@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="240dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/actorImage"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/card_corner" />
+
+    <TextView
+        android:id="@+id/actorName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/text"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        tools:text="Richard S. Castellano"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="@id/actorImage"
+        app:layout_constraintStart_toStartOf="@id/actorImage"
+        app:layout_constraintTop_toBottomOf="@+id/actorImage" />
+
+    <TextView
+        android:id="@+id/actorAsCharacter"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="@color/text"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"
+        android:maxLines="2"
+        tools:text="Clemenza (as Richard Castellano)"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actorName" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

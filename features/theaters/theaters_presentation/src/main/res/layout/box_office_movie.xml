@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/default_top_margin"
+        android:layout_marginTop="@dimen/default_top_margin"
+        android:layout_marginEnd="@dimen/default_top_margin"
+        android:background="@drawable/shape_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageBoxOfficeItem"
+            style="@style/card_image_style"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/card_corner" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleBoxOfficeItem"
+            style="@style/card_title_style"
+            tools:text="Avatar: The Way of Water"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageBoxOfficeItem"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weekendBoxOfficeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="@color/text"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="weekend: $20.0M"
+            app:layout_constraintStart_toEndOf="@+id/imageBoxOfficeItem"
+            app:layout_constraintTop_toBottomOf="@id/titleBoxOfficeItem" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/grossBoxOfficeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="@color/text"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="gross: $598.3M"
+            app:layout_constraintStart_toEndOf="@+id/imageBoxOfficeItem"
+            app:layout_constraintTop_toBottomOf="@id/weekendBoxOfficeItem" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weeksBoxOfficeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="@color/text"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="weeks: 5"
+            app:layout_constraintStart_toEndOf="@+id/imageBoxOfficeItem"
+            app:layout_constraintTop_toBottomOf="@id/grossBoxOfficeItem" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="12dp"
+            android:background="@drawable/circle_bottom_shape"
+            app:layout_constraintStart_toEndOf="@+id/imageBoxOfficeItem"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="12dp"
+            android:background="@drawable/circle_top_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageBoxOfficeItem" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/rankBoxOffice"
+        style="@style/card_rank"
+        tools:text="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

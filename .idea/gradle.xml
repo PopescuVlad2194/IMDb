@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core-ui" />
+            <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/details" />
+            <option value="$PROJECT_DIR$/features/details/details_data" />
+            <option value="$PROJECT_DIR$/features/details/details_domain" />
+            <option value="$PROJECT_DIR$/features/details/details_presentation" />
+            <option value="$PROJECT_DIR$/features/popular" />
+            <option value="$PROJECT_DIR$/features/popular/popular_data" />
+            <option value="$PROJECT_DIR$/features/popular/popular_domain" />
+            <option value="$PROJECT_DIR$/features/popular/popular_presentation" />
+            <option value="$PROJECT_DIR$/features/search" />
+            <option value="$PROJECT_DIR$/features/search/search_data" />
+            <option value="$PROJECT_DIR$/features/search/search_domain" />
+            <option value="$PROJECT_DIR$/features/search/search_presentation" />
+            <option value="$PROJECT_DIR$/features/theaters" />
+            <option value="$PROJECT_DIR$/features/theaters/theaters_data" />
+            <option value="$PROJECT_DIR$/features/theaters/theaters_domain" />
+            <option value="$PROJECT_DIR$/features/theaters/theaters_presentation" />
+            <option value="$PROJECT_DIR$/features/top" />
+            <option value="$PROJECT_DIR$/features/top/top_data" />
+            <option value="$PROJECT_DIR$/features/top/top_domain" />
+            <option value="$PROJECT_DIR$/features/top/top_presentation" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

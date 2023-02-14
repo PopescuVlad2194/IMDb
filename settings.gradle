@@ -1,0 +1,39 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "IMDb"
+include ':app'
+include ':core'
+include ':features'
+include ':features:theaters'
+include ':features:theaters:theaters_presentation'
+include ':features:theaters:theaters_domain'
+include ':features:theaters:theaters_data'
+include ':features:top'
+include ':features:top:top_data'
+include ':features:top:top_domain'
+include ':features:top:top_presentation'
+include ':features:popular'
+include ':features:popular:popular_data'
+include ':features:popular:popular_domain'
+include ':features:popular:popular_presentation'
+include ':features:details'
+include ':features:details:details_data'
+include ':features:details:details_domain'
+include ':features:details:details_presentation'
+include ':features:search'
+include ':features:search:search_data'
+include ':features:search:search_domain'
+include ':features:search:search_presentation'
+include ':core-ui'

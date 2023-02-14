@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="custom_btn" >
+        <item name="android:layout_width">@dimen/item_standard_size</item>
+        <item name="android:layout_height">@dimen/item_standard_size</item>
+        <item name="android:background">@drawable/shape_menu</item>
+        <item name="android:gravity">center</item>
+        <item name="android:tint">@color/title</item>
+    </style>
+
+    <style name="CustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="card_corner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+
+    <style name="card_image_style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="card_title_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="card_rank">
+        <item name="android:layout_width">42dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:background">@drawable/circle_shape</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="card_space_top">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:background">@drawable/circle_bottom_shape</item>
+    </style>
+
+    <style name="card_space_bottom">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:background">@drawable/circle_top_shape</item>
+    </style>
+
+    <style name="card_up_down">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:background">@drawable/circle_shape</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

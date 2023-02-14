@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">MovieDatabase</string>
+    <string name="home_title">In Theaters</string>
+    <string name="top_title">Top 250</string>
+    <string name="popular_title">Most Popular</string>
+    <string name="tab_now_showing">Now Showing</string>
+    <string name="tab_top_movies">Top Movies</string>
+    <string name="tab_popular_movies">Popular Movies</string>
+    <string name="tab_popular_shows">Popular TVs</string>
+    <string name="tab_top_shows">Top Shows</string>
+    <string name="tab_box_office">Box Office</string>
+    <string name="tab_coming_soon">Coming Soon</string>
+    <string name="movie_details">%1$s Minutes - %2$s</string>
+    <string name="box_office_weekend">Weekend: %1$s</string>
+    <string name="box_office_gross">Gross: %1$s</string>
+    <string name="box_office_week">Week: %1$s</string>
+    <string name="top_rating_votes">(%1$s)</string>
+    <string name="details_title_toolbar">Details</string>
+    <string name="movie_storyline">Storyline</string>
+    <string name="movie_directors">Directors</string>
+    <string name="movie_genres">Genres</string>
+    <string name="movie_cast">Cast</string>
+    <string name="nav_drawer_theaters">In Theaters</string>
+    <string name="nav_drawer_top250">Top 250</string>
+    <string name="nav_drawer_most_popular">Most Popular</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="search_bar_hint">Search..</string>
+    <string name="details_title">Details</string>
+    <string name="error_message">An error occurred: %1$s</string>
+    <string name="network_error">Network error, please check your internet connection. You can swipe down to refresh the page.</string>
+    <string name="internet_error">No internet connection available</string>
+    <string name="unknown_error">Unknown error</string>
+</resources>
